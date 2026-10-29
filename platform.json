@@ -1,4 +1,5 @@
 {
+  "api_path_prefix": "/fanduel/",
   "async_class_name": "AsyncFanDuelClient",
   "class_name": "FanDuelClient",
   "contract_revision": "sha256:cb36ab030bfb9495ece6981b47d17cda615ba7a9959a2aaaef5da0122ed79a54",
