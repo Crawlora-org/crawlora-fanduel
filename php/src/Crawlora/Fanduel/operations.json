@@ -1,0 +1,6137 @@
+{
+  "platform": "fanduel",
+  "operationCount": 72,
+  "operationIds": [
+    "fanduel-casino-categories",
+    "fanduel-casino-category",
+    "fanduel-casino-game",
+    "fanduel-racing-carryover-pools",
+    "fanduel-racing-filters",
+    "fanduel-racing-horse",
+    "fanduel-racing-past-race",
+    "fanduel-racing-past-races",
+    "fanduel-racing-past-tracks",
+    "fanduel-racing-race",
+    "fanduel-racing-races",
+    "fanduel-racing-results",
+    "fanduel-racing-search",
+    "fanduel-racing-track",
+    "fanduel-racing-tracks",
+    "fanduel-racing-wager-types",
+    "fanduel-research",
+    "fanduel-research-article",
+    "fanduel-research-articles",
+    "fanduel-research-author",
+    "fanduel-research-authors",
+    "fanduel-research-featured-articles",
+    "fanduel-research-fixtures",
+    "fanduel-research-nfl-schedule",
+    "fanduel-research-player-news",
+    "fanduel-research-projection-slates",
+    "fanduel-research-projection-tables",
+    "fanduel-research-projections",
+    "fanduel-research-quick-picks-daily",
+    "fanduel-research-sports",
+    "fanduel-research-sub-categories",
+    "fanduel-sportsbook-autocomplete",
+    "fanduel-sportsbook-builder",
+    "fanduel-sportsbook-builder-events",
+    "fanduel-sportsbook-builder-quotes",
+    "fanduel-sportsbook-competition",
+    "fanduel-sportsbook-event",
+    "fanduel-sportsbook-event-box-score",
+    "fanduel-sportsbook-event-play-by-play",
+    "fanduel-sportsbook-event-players",
+    "fanduel-sportsbook-event-score",
+    "fanduel-sportsbook-event-stats",
+    "fanduel-sportsbook-events-status",
+    "fanduel-sportsbook-home",
+    "fanduel-sportsbook-league",
+    "fanduel-sportsbook-live",
+    "fanduel-sportsbook-live-count",
+    "fanduel-sportsbook-live-data",
+    "fanduel-sportsbook-live-scores",
+    "fanduel-sportsbook-market-prices",
+    "fanduel-sportsbook-parlays",
+    "fanduel-sportsbook-player",
+    "fanduel-sportsbook-player-news",
+    "fanduel-sportsbook-player-props",
+    "fanduel-sportsbook-player-stats",
+    "fanduel-sportsbook-players",
+    "fanduel-sportsbook-promotions",
+    "fanduel-sportsbook-schedule",
+    "fanduel-sportsbook-search",
+    "fanduel-sportsbook-search-tabs",
+    "fanduel-sportsbook-sport",
+    "fanduel-sportsbook-sports",
+    "fanduel-sportsbook-standings",
+    "fanduel-sportsbook-stats",
+    "fanduel-sportsbook-team-depth-chart",
+    "fanduel-sportsbook-team-news",
+    "fanduel-sportsbook-team-odds",
+    "fanduel-sportsbook-team-roster",
+    "fanduel-sportsbook-team-schedule",
+    "fanduel-sportsbook-team-stats",
+    "fanduel-sportsbook-teams",
+    "fanduel-sportsbook-trending"
+  ],
+  "methods": {
+    "casino_categories": "fanduel-casino-categories",
+    "casino_category": "fanduel-casino-category",
+    "casino_game": "fanduel-casino-game",
+    "racing_carryover_pools": "fanduel-racing-carryover-pools",
+    "racing_filters": "fanduel-racing-filters",
+    "racing_horse": "fanduel-racing-horse",
+    "racing_past_race": "fanduel-racing-past-race",
+    "racing_past_races": "fanduel-racing-past-races",
+    "racing_past_tracks": "fanduel-racing-past-tracks",
+    "racing_race": "fanduel-racing-race",
+    "racing_races": "fanduel-racing-races",
+    "racing_results": "fanduel-racing-results",
+    "racing_search": "fanduel-racing-search",
+    "racing_track": "fanduel-racing-track",
+    "racing_tracks": "fanduel-racing-tracks",
+    "racing_wager_types": "fanduel-racing-wager-types",
+    "research": "fanduel-research",
+    "research_article": "fanduel-research-article",
+    "research_articles": "fanduel-research-articles",
+    "research_author": "fanduel-research-author",
+    "research_authors": "fanduel-research-authors",
+    "research_featured_articles": "fanduel-research-featured-articles",
+    "research_fixtures": "fanduel-research-fixtures",
+    "research_nfl_schedule": "fanduel-research-nfl-schedule",
+    "research_player_news": "fanduel-research-player-news",
+    "research_quick_picks_daily": "fanduel-research-quick-picks-daily",
+    "research_projection_slates": "fanduel-research-projection-slates",
+    "research_projection_tables": "fanduel-research-projection-tables",
+    "research_projections": "fanduel-research-projections",
+    "research_sports": "fanduel-research-sports",
+    "research_sub_categories": "fanduel-research-sub-categories",
+    "sportsbook_autocomplete": "fanduel-sportsbook-autocomplete",
+    "sportsbook_builder": "fanduel-sportsbook-builder",
+    "sportsbook_builder_events": "fanduel-sportsbook-builder-events",
+    "sportsbook_builder_quotes": "fanduel-sportsbook-builder-quotes",
+    "sportsbook_competition": "fanduel-sportsbook-competition",
+    "sportsbook_event": "fanduel-sportsbook-event",
+    "sportsbook_event_box_score": "fanduel-sportsbook-event-box-score",
+    "sportsbook_event_play_by_play": "fanduel-sportsbook-event-play-by-play",
+    "sportsbook_event_players": "fanduel-sportsbook-event-players",
+    "sportsbook_event_score": "fanduel-sportsbook-event-score",
+    "sportsbook_event_stats": "fanduel-sportsbook-event-stats",
+    "sportsbook_events_status": "fanduel-sportsbook-events-status",
+    "sportsbook_home": "fanduel-sportsbook-home",
+    "sportsbook_league": "fanduel-sportsbook-league",
+    "sportsbook_live": "fanduel-sportsbook-live",
+    "sportsbook_live_count": "fanduel-sportsbook-live-count",
+    "sportsbook_live_data": "fanduel-sportsbook-live-data",
+    "sportsbook_live_scores": "fanduel-sportsbook-live-scores",
+    "sportsbook_market_prices": "fanduel-sportsbook-market-prices",
+    "sportsbook_parlays": "fanduel-sportsbook-parlays",
+    "sportsbook_player": "fanduel-sportsbook-player",
+    "sportsbook_player_news": "fanduel-sportsbook-player-news",
+    "sportsbook_player_props": "fanduel-sportsbook-player-props",
+    "sportsbook_player_stats": "fanduel-sportsbook-player-stats",
+    "sportsbook_players": "fanduel-sportsbook-players",
+    "sportsbook_promotions": "fanduel-sportsbook-promotions",
+    "sportsbook_schedule": "fanduel-sportsbook-schedule",
+    "sportsbook_search": "fanduel-sportsbook-search",
+    "sportsbook_search_tabs": "fanduel-sportsbook-search-tabs",
+    "sportsbook_sport": "fanduel-sportsbook-sport",
+    "sportsbook_sports": "fanduel-sportsbook-sports",
+    "sportsbook_standings": "fanduel-sportsbook-standings",
+    "sportsbook_stats": "fanduel-sportsbook-stats",
+    "sportsbook_team_depth_chart": "fanduel-sportsbook-team-depth-chart",
+    "sportsbook_team_news": "fanduel-sportsbook-team-news",
+    "sportsbook_team_odds": "fanduel-sportsbook-team-odds",
+    "sportsbook_team_roster": "fanduel-sportsbook-team-roster",
+    "sportsbook_team_schedule": "fanduel-sportsbook-team-schedule",
+    "sportsbook_team_stats": "fanduel-sportsbook-team-stats",
+    "sportsbook_teams": "fanduel-sportsbook-teams",
+    "sportsbook_trending": "fanduel-sportsbook-trending"
+  },
+  "operations": {
+    "fanduel-casino-categories": {
+      "id": "fanduel-casino-categories",
+      "method": "GET",
+      "path": "/fanduel/casino/categories",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "region",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "mi",
+            "on"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "mi",
+          "description": "Lobby: `mi` Michigan (default) or `on` Ontario",
+          "enum": [
+            "mi",
+            "on"
+          ],
+          "in": "query",
+          "name": "region",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-casino-category": {
+      "id": "fanduel-casino-category",
+      "method": "GET",
+      "path": "/fanduel/casino/category",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "region",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "mi",
+            "on"
+          ]
+        },
+        {
+          "name": "category",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "all-games",
+            "new",
+            "slots",
+            "double-your-bet-category",
+            "jackpots",
+            "daily-jackpots",
+            "hot-slots",
+            "classic-reels-category",
+            "bonus-buy-category",
+            "high-limit-category",
+            "spooky-slots-category",
+            "exclusives",
+            "pick-play",
+            "arcade",
+            "blackjack",
+            "baccarat",
+            "roulette",
+            "table",
+            "livecasino",
+            "online-casino-favorites",
+            "explore-videos",
+            "motorcity-favorites",
+            "fallsview-favourites-category",
+            "the-wolf-den-category",
+            "sports-central"
+          ]
+        },
+        {
+          "name": "q",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "provider",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "badge",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "offset",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "mi",
+          "description": "Lobby: `mi` Michigan (default) or `on` Ontario",
+          "enum": [
+            "mi",
+            "on"
+          ],
+          "in": "query",
+          "name": "region",
+          "type": "string"
+        },
+        {
+          "description": "Category slug from the `categories` route for the same `region`. Michigan has `all-games`, `new`, `slots`, `double-your-bet-category`, `jackpots`, `daily-jackpots`, `hot-slots`, `classic-reels-category`, `bonus-buy-category`, `high-limit-category`, `spooky-slots-category`, `exclusives`, `pick-play`, `arcade`, `blackjack`, `baccarat`, `roulette`, `table`, `livecasino`, `online-casino-favorites`, `explore-videos`, `motorcity-favorites`; Ontario has the same list without `hot-slots`, `classic-reels-category`, `bonus-buy-category`, `online-casino-favorites` and `motorcity-favorites`, and adds `fallsview-favourites-category`, `the-wolf-den-category`, `sports-central`. A slug the lobby lacks returns `400`",
+          "enum": [
+            "all-games",
+            "new",
+            "slots",
+            "double-your-bet-category",
+            "jackpots",
+            "daily-jackpots",
+            "hot-slots",
+            "classic-reels-category",
+            "bonus-buy-category",
+            "high-limit-category",
+            "spooky-slots-category",
+            "exclusives",
+            "pick-play",
+            "arcade",
+            "blackjack",
+            "baccarat",
+            "roulette",
+            "table",
+            "livecasino",
+            "online-casino-favorites",
+            "explore-videos",
+            "motorcity-favorites",
+            "fallsview-favourites-category",
+            "the-wolf-den-category",
+            "sports-central"
+          ],
+          "in": "query",
+          "name": "category",
+          "required": true,
+          "type": "string",
+          "x-example": "blackjack"
+        },
+        {
+          "description": "Words to find in the game name, such as `huff puff`; every word must match",
+          "in": "query",
+          "name": "q",
+          "type": "string"
+        },
+        {
+          "description": "Keep only games from this studio, exactly as listed in the response `providers` (for example `NYX`, `Evolution`, `IGT`); a value the category does not have returns `400`",
+          "in": "query",
+          "name": "provider",
+          "type": "string"
+        },
+        {
+          "description": "Keep only games with this badge, exactly as listed in the response `badges` (for example `Exclusive`, `Jackpot`)",
+          "in": "query",
+          "name": "badge",
+          "type": "string"
+        },
+        {
+          "default": 50,
+          "description": "Games per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        },
+        {
+          "default": 0,
+          "description": "Games to skip; default 0",
+          "in": "query",
+          "minimum": 0,
+          "name": "offset",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-casino-game": {
+      "id": "fanduel-casino-game",
+      "method": "GET",
+      "path": "/fanduel/casino/game",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "region",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "mi",
+            "on"
+          ]
+        },
+        {
+          "name": "game",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "mi",
+          "description": "Lobby of the game: `mi` Michigan (default) or `on` Ontario",
+          "enum": [
+            "mi",
+            "on"
+          ],
+          "in": "query",
+          "name": "region",
+          "type": "string"
+        },
+        {
+          "description": "Game slug from the `category` route (`games[].slug`), lower-case, such as `huff-n-even-more-puff-hard-hat-edition`",
+          "in": "query",
+          "name": "game",
+          "required": true,
+          "type": "string",
+          "x-example": "huff-n-even-more-puff-hard-hat-edition"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-carryover-pools": {
+      "id": "fanduel-racing-carryover-pools",
+      "method": "GET",
+      "path": "/fanduel/racing/carryover-pools",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "status",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "O",
+            "IC",
+            "SK",
+            "RO"
+          ]
+        },
+        {
+          "name": "track",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Keep only pools whose race has these statuses (repeat the parameter or comma-separate): `O` Open, `IC` Up Next, `SK` Race Off, `RO` Race Official",
+          "enum": [
+            "O",
+            "IC",
+            "SK",
+            "RO"
+          ],
+          "in": "query",
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these track codes (repeat the parameter or comma-separate), such as `LRL`; list codes with the `tracks` route",
+          "in": "query",
+          "name": "track",
+          "type": "string"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Items per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-filters": {
+      "id": "fanduel-racing-filters",
+      "method": "GET",
+      "path": "/fanduel/racing/filters",
+      "pathParams": [],
+      "queryParams": [],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-horse": {
+      "id": "fanduel-racing-horse",
+      "method": "GET",
+      "path": "/fanduel/racing/horse",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "id",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Horse id (`id` of a `runner` result of the `search` route), such as `1002257`",
+          "in": "query",
+          "name": "id",
+          "required": true,
+          "type": "string",
+          "x-example": "1002257"
+        },
+        {
+          "default": 1,
+          "description": "Page of races, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Races per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-past-race": {
+      "id": "fanduel-racing-past-race",
+      "method": "GET",
+      "path": "/fanduel/racing/past-race",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "date",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "track",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "number",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Day as `YYYY-MM-DD`, from `2008-01-01`",
+          "in": "query",
+          "name": "date",
+          "required": true,
+          "type": "string",
+          "x-example": "2026-10-02"
+        },
+        {
+          "description": "Track code such as `BEL`",
+          "in": "query",
+          "name": "track",
+          "required": true,
+          "type": "string",
+          "x-example": "BEL"
+        },
+        {
+          "description": "Race number, 1 to 99",
+          "in": "query",
+          "name": "number",
+          "required": true,
+          "type": "string",
+          "x-example": "9"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-past-races": {
+      "id": "fanduel-racing-past-races",
+      "method": "GET",
+      "path": "/fanduel/racing/past-races",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "date",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "track",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Day as `YYYY-MM-DD`, from `2008-01-01`",
+          "in": "query",
+          "name": "date",
+          "required": true,
+          "type": "string",
+          "x-example": "2026-10-02"
+        },
+        {
+          "description": "Track code such as `BEL`; omit for every track",
+          "in": "query",
+          "name": "track",
+          "type": "string"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Races per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-past-tracks": {
+      "id": "fanduel-racing-past-tracks",
+      "method": "GET",
+      "path": "/fanduel/racing/past-tracks",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "date",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "track",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Day as `YYYY-MM-DD`, from `2008-01-01`",
+          "in": "query",
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "description": "Track code such as `BEL`; adds the dates the track ran",
+          "in": "query",
+          "name": "track",
+          "type": "string"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Items per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-race": {
+      "id": "fanduel-racing-race",
+      "method": "GET",
+      "path": "/fanduel/racing/race",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "track",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "number",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "include",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "handicapping",
+            "timeform",
+            "pool_grids"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Track code from the `tracks` route, such as `LRL`",
+          "in": "query",
+          "name": "track",
+          "required": true,
+          "type": "string",
+          "x-example": "BOL"
+        },
+        {
+          "description": "Race number, 1 to 99, such as `2`",
+          "in": "query",
+          "name": "number",
+          "required": true,
+          "type": "string",
+          "x-example": "2"
+        },
+        {
+          "description": "Optional groups to add (repeat the parameter or comma-separate): `handicapping` per-runner handicapping figures and favorite rank, `timeform` Timeform comments, tissue price, flags and finisher timing, `pool_grids` per-entry pool pairings. Other values return `400`",
+          "enum": [
+            "handicapping",
+            "timeform",
+            "pool_grids"
+          ],
+          "in": "query",
+          "name": "include",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-races": {
+      "id": "fanduel-racing-races",
+      "method": "GET",
+      "path": "/fanduel/racing/races",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "track",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "country",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_country",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "race_type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "T",
+            "H",
+            "Q",
+            "L"
+          ]
+        },
+        {
+          "name": "status",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "O",
+            "IC",
+            "SK",
+            "RO"
+          ]
+        },
+        {
+          "name": "open",
+          "in": "query",
+          "type": "boolean"
+        },
+        {
+          "name": "within_minutes",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "sort",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "mtp",
+            "post_time",
+            "race_number"
+          ]
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Keep only these track codes (repeat the parameter or comma-separate), such as `LRL`; list codes with the `tracks` route",
+          "in": "query",
+          "name": "track",
+          "type": "string"
+        },
+        {
+          "description": "Keep only races or tracks in these countries (repeat the parameter or comma-separate): upper-case three-letter codes such as `USA`, `GBR`, `AUS`. Today's codes are listed in the `filters` route's `countries`; lower-case or two-letter values return `400`",
+          "in": "query",
+          "name": "country",
+          "type": "string"
+        },
+        {
+          "description": "Drop these countries (repeat the parameter or comma-separate), same codes as `country`",
+          "in": "query",
+          "name": "exclude_country",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these race types (repeat the parameter or comma-separate): `T` Thoroughbred, `H` Harness, `Q` QuarterHorse, `L` Thoroughbred LARC",
+          "enum": [
+            "T",
+            "H",
+            "Q",
+            "L"
+          ],
+          "in": "query",
+          "name": "race_type",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these race statuses (repeat the parameter or comma-separate): `O` Open, `IC` Up Next, `SK` Race Off, `RO` Race Official",
+          "enum": [
+            "O",
+            "IC",
+            "SK",
+            "RO"
+          ],
+          "in": "query",
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "description": "`true` for races still open for betting (`O` and `IC`), `false` for off or official races; omit for both",
+          "in": "query",
+          "name": "open",
+          "type": "boolean"
+        },
+        {
+          "description": "Keep races that post within this many minutes, 1 to 1440",
+          "in": "query",
+          "maximum": 1440,
+          "minimum": 1,
+          "name": "within_minutes",
+          "type": "integer"
+        },
+        {
+          "description": "Sort: `mtp` (minutes to post), `post_time`, `race_number`; default is the service's own order",
+          "enum": [
+            "mtp",
+            "post_time",
+            "race_number"
+          ],
+          "in": "query",
+          "name": "sort",
+          "type": "string"
+        },
+        {
+          "description": "`asc` or `desc`; default `asc`. Only valid together with `sort`",
+          "enum": [
+            "asc",
+            "desc"
+          ],
+          "in": "query",
+          "name": "order",
+          "type": "string"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Items per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-results": {
+      "id": "fanduel-racing-results",
+      "method": "GET",
+      "path": "/fanduel/racing/results",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "track",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "country",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_country",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "race_type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "T",
+            "H",
+            "Q",
+            "L"
+          ]
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Keep only these track codes (repeat the parameter or comma-separate), such as `LRL`; list codes with the `tracks` route",
+          "in": "query",
+          "name": "track",
+          "type": "string"
+        },
+        {
+          "description": "Keep only races or tracks in these countries (repeat the parameter or comma-separate): upper-case three-letter codes such as `USA`, `GBR`, `AUS`. Today's codes are listed in the `filters` route's `countries`; lower-case or two-letter values return `400`",
+          "in": "query",
+          "name": "country",
+          "type": "string"
+        },
+        {
+          "description": "Drop these countries (repeat the parameter or comma-separate), same codes as `country`",
+          "in": "query",
+          "name": "exclude_country",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these race types (repeat the parameter or comma-separate): `T` Thoroughbred, `H` Harness, `Q` QuarterHorse, `L` Thoroughbred LARC",
+          "enum": [
+            "T",
+            "H",
+            "Q",
+            "L"
+          ],
+          "in": "query",
+          "name": "race_type",
+          "type": "string"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Items per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-search": {
+      "id": "fanduel-racing-search",
+      "method": "GET",
+      "path": "/fanduel/racing/search",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "q",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "runner",
+            "jockey",
+            "trainer",
+            "owner"
+          ]
+        },
+        {
+          "name": "sort",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "name",
+            "last_event"
+          ]
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Name text, 3 to 64 characters; matching is case-insensitive",
+          "in": "query",
+          "name": "q",
+          "required": true,
+          "type": "string",
+          "x-example": "Baf"
+        },
+        {
+          "description": "Keep one kind (any other value silently finds nothing upstream, so it returns `400`)",
+          "enum": [
+            "runner",
+            "jockey",
+            "trainer",
+            "owner"
+          ],
+          "in": "query",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "default": "name",
+          "description": "Sort within each kind; default `name`",
+          "enum": [
+            "name",
+            "last_event"
+          ],
+          "in": "query",
+          "name": "sort",
+          "type": "string"
+        },
+        {
+          "default": "asc",
+          "description": "`asc` or `desc`; default `asc`",
+          "enum": [
+            "asc",
+            "desc"
+          ],
+          "in": "query",
+          "name": "order",
+          "type": "string"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Items per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-track": {
+      "id": "fanduel-racing-track",
+      "method": "GET",
+      "path": "/fanduel/racing/track",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "code",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Track code from the `tracks` route (`tracks[].code`), such as `LRL`",
+          "in": "query",
+          "name": "code",
+          "required": true,
+          "type": "string",
+          "x-example": "LRL"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-tracks": {
+      "id": "fanduel-racing-tracks",
+      "method": "GET",
+      "path": "/fanduel/racing/tracks",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "country",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_country",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "race_type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "T",
+            "H",
+            "Q",
+            "L"
+          ]
+        },
+        {
+          "name": "code",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "finished",
+          "in": "query",
+          "type": "boolean"
+        },
+        {
+          "name": "featured",
+          "in": "query",
+          "type": "boolean"
+        },
+        {
+          "name": "sort",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "name",
+            "mtp",
+            "wagerable_mtp",
+            "ivr"
+          ]
+        },
+        {
+          "name": "order",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "asc",
+            "desc"
+          ]
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Keep only races or tracks in these countries (repeat the parameter or comma-separate): upper-case three-letter codes such as `USA`, `GBR`, `AUS`. Today's codes are listed in the `filters` route's `countries`; lower-case or two-letter values return `400`",
+          "in": "query",
+          "name": "country",
+          "type": "string"
+        },
+        {
+          "description": "Drop these countries (repeat the parameter or comma-separate), same codes as `country`",
+          "in": "query",
+          "name": "exclude_country",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these race types (repeat the parameter or comma-separate): `T` Thoroughbred, `H` Harness, `Q` QuarterHorse, `L` Thoroughbred LARC",
+          "enum": [
+            "T",
+            "H",
+            "Q",
+            "L"
+          ],
+          "in": "query",
+          "name": "race_type",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these track codes (repeat the parameter or comma-separate), such as `LRL`",
+          "in": "query",
+          "name": "code",
+          "type": "string"
+        },
+        {
+          "description": "`true` for tracks whose card is over, `false` for tracks still racing; omit for both",
+          "in": "query",
+          "name": "finished",
+          "type": "boolean"
+        },
+        {
+          "description": "`true` for the Sportsbook's featured tracks only, `false` for the others; omit for both",
+          "in": "query",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "description": "Sort: `name`, `mtp` (minutes to post of the current race), `wagerable_mtp`, `ivr`; default is the service's own order",
+          "enum": [
+            "name",
+            "mtp",
+            "wagerable_mtp",
+            "ivr"
+          ],
+          "in": "query",
+          "name": "sort",
+          "type": "string"
+        },
+        {
+          "description": "`asc` or `desc`; default `asc`. Only valid together with `sort`",
+          "enum": [
+            "asc",
+            "desc"
+          ],
+          "in": "query",
+          "name": "order",
+          "type": "string"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Items per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-racing-wager-types": {
+      "id": "fanduel-racing-wager-types",
+      "method": "GET",
+      "path": "/fanduel/racing/wager-types",
+      "pathParams": [],
+      "queryParams": [],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research": {
+      "id": "fanduel-research",
+      "method": "GET",
+      "path": "/fanduel/research",
+      "pathParams": [],
+      "queryParams": [],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-article": {
+      "id": "fanduel-research-article",
+      "method": "GET",
+      "path": "/fanduel/research/article",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "article",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Article slug from the `articles` route (`articles[].slug`)",
+          "in": "query",
+          "name": "article",
+          "required": true,
+          "type": "string",
+          "x-example": "avalanche-vs-lightning-prediction-nhl-odds-10-23-2026"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-articles": {
+      "id": "fanduel-research-articles",
+      "method": "GET",
+      "path": "/fanduel/research/articles",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ]
+        },
+        {
+          "name": "exclude_sport",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "sub_category",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "player",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "author",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "hero_type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "IMAGE",
+            "JWPLAYER"
+          ]
+        },
+        {
+          "name": "published_after",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "published_before",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "hide_deprioritized",
+          "in": "query",
+          "type": "boolean"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport or topic slug from the `sports` route; default all sports",
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ],
+          "in": "query",
+          "name": "sport",
+          "type": "string"
+        },
+        {
+          "description": "Drop these sports (repeat the parameter or comma-separate), same slugs as `sport`",
+          "in": "query",
+          "name": "exclude_sport",
+          "type": "string"
+        },
+        {
+          "description": "Topic slug from the `sub-categories` route; needs `sport` and must belong to it",
+          "in": "query",
+          "name": "sub_category",
+          "type": "string"
+        },
+        {
+          "description": "A team's `number_fire_id` from the `sports` route (`sport` selects the list); needs `sport`. An id of another sport returns `400`",
+          "in": "query",
+          "name": "team",
+          "type": "integer"
+        },
+        {
+          "description": "A player's `number_fire_id` (`subject.number_fire_id` of the `player-news` route); keeps articles about that player. An unknown id, or one of a different `sport`, returns `400`",
+          "in": "query",
+          "minimum": 1,
+          "name": "player",
+          "type": "integer"
+        },
+        {
+          "description": "Author id (a UUID) from the `authors` route",
+          "in": "query",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "description": "Hero media: `IMAGE` or `JWPLAYER` (video)",
+          "enum": [
+            "IMAGE",
+            "JWPLAYER"
+          ],
+          "in": "query",
+          "name": "hero_type",
+          "type": "string"
+        },
+        {
+          "description": "Earliest publish time, RFC 3339 or `YYYY-MM-DD`",
+          "in": "query",
+          "name": "published_after",
+          "type": "string"
+        },
+        {
+          "description": "Latest publish time, RFC 3339 or `YYYY-MM-DD`; not earlier than `published_after`",
+          "in": "query",
+          "name": "published_before",
+          "type": "string"
+        },
+        {
+          "description": "`true` to hide content the site ranks down; it also reorders the list",
+          "in": "query",
+          "name": "hide_deprioritized",
+          "type": "boolean"
+        },
+        {
+          "default": 20,
+          "description": "Articles per page, 1 to 50; default 20",
+          "in": "query",
+          "maximum": 50,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        },
+        {
+          "description": "Continue from the previous response's `next_cursor`",
+          "in": "query",
+          "name": "cursor",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-author": {
+      "id": "fanduel-research-author",
+      "method": "GET",
+      "path": "/fanduel/research/author",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "author",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Author slug from the `authors` route, such as `fanduel-staff`",
+          "in": "query",
+          "name": "author",
+          "required": true,
+          "type": "string",
+          "x-example": "fanduel-staff"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-authors": {
+      "id": "fanduel-research-authors",
+      "method": "GET",
+      "path": "/fanduel/research/authors",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ]
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport or topic slug from the `sports` route",
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ],
+          "in": "query",
+          "name": "sport",
+          "type": "string"
+        },
+        {
+          "default": 20,
+          "description": "Authors per page, 1 to 50; default 20",
+          "in": "query",
+          "maximum": 50,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        },
+        {
+          "description": "Continue from the previous response's `next_cursor`",
+          "in": "query",
+          "name": "cursor",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-featured-articles": {
+      "id": "fanduel-research-featured-articles",
+      "method": "GET",
+      "path": "/fanduel/research/featured-articles",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport or topic slug from the `sports` route",
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ],
+          "in": "query",
+          "name": "sport",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-fixtures": {
+      "id": "fanduel-research-fixtures",
+      "method": "GET",
+      "path": "/fanduel/research/fixtures",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "nba",
+            "nfl",
+            "nhl",
+            "mlb"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Keep one league",
+          "enum": [
+            "nba",
+            "nfl",
+            "nhl",
+            "mlb"
+          ],
+          "in": "query",
+          "name": "sport",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-nfl-schedule": {
+      "id": "fanduel-research-nfl-schedule",
+      "method": "GET",
+      "path": "/fanduel/research/nfl-schedule",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "week",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "name": "season_type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "PRE",
+            "REGULAR",
+            "POST"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Week number; `0` to `4` for PRE (`0` is the Hall of Fame game), `1` to `18` for REGULAR, `1` to `5` for POST",
+          "in": "query",
+          "maximum": 18,
+          "minimum": 0,
+          "name": "week",
+          "required": true,
+          "type": "integer",
+          "x-example": 1
+        },
+        {
+          "default": "REGULAR",
+          "description": "Season phase; default `REGULAR`",
+          "enum": [
+            "PRE",
+            "REGULAR",
+            "POST"
+          ],
+          "in": "query",
+          "name": "season_type",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-player-news": {
+      "id": "fanduel-research-player-news",
+      "method": "GET",
+      "path": "/fanduel/research/player-news",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "nhl"
+          ]
+        },
+        {
+          "name": "news_type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "INJURY",
+            "RECAP",
+            "TRANSACTION",
+            "LINEUP",
+            "GAME_UPDATE",
+            "OUTLOOK"
+          ]
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "player",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "position",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "G",
+            "F",
+            "C",
+            "W",
+            "D",
+            "QB",
+            "DB",
+            "DL",
+            "K",
+            "LB",
+            "OL",
+            "P",
+            "RB",
+            "TE",
+            "WR",
+            "IF",
+            "OF",
+            "DH"
+          ]
+        },
+        {
+          "name": "include_non_primary",
+          "in": "query",
+          "type": "boolean"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport slug",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "nhl"
+          ],
+          "in": "query",
+          "name": "sport",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Update type: `INJURY`, `RECAP`, `TRANSACTION`, `LINEUP`, `GAME_UPDATE`, `OUTLOOK`; a type the sport lacks returns `400` and lists the ones it has",
+          "enum": [
+            "INJURY",
+            "RECAP",
+            "TRANSACTION",
+            "LINEUP",
+            "GAME_UPDATE",
+            "OUTLOOK"
+          ],
+          "in": "query",
+          "name": "news_type",
+          "type": "string"
+        },
+        {
+          "description": "A team's `number_fire_id` from the `sports` route",
+          "in": "query",
+          "name": "team",
+          "type": "integer"
+        },
+        {
+          "description": "A player's `number_fire_id`; needs `position`",
+          "in": "query",
+          "name": "player",
+          "type": "integer"
+        },
+        {
+          "description": "The player's position code; needs `player`",
+          "enum": [
+            "G",
+            "F",
+            "C",
+            "W",
+            "D",
+            "QB",
+            "DB",
+            "DL",
+            "K",
+            "LB",
+            "OL",
+            "P",
+            "RB",
+            "TE",
+            "WR",
+            "IF",
+            "OF",
+            "DH"
+          ],
+          "in": "query",
+          "name": "position",
+          "type": "string"
+        },
+        {
+          "description": "`true` to include updates where the subject is not the main player",
+          "in": "query",
+          "name": "include_non_primary",
+          "type": "boolean"
+        },
+        {
+          "default": 25,
+          "description": "Updates per page, 1 to 100; default 25",
+          "in": "query",
+          "maximum": 100,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        },
+        {
+          "description": "Continue from the previous response's `next_cursor`",
+          "in": "query",
+          "name": "cursor",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-quick-picks-daily": {
+      "id": "fanduel-research-quick-picks-daily",
+      "method": "GET",
+      "path": "/fanduel/research/podcasts/quick-picks-daily",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "cursor",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Cursor from a previous response's `data.next_cursor`; omit for the first page",
+          "in": "query",
+          "name": "cursor",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-projection-slates": {
+      "id": "fanduel-research-projection-slates",
+      "method": "GET",
+      "path": "/fanduel/research/projection-slates",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "mlb",
+            "nba",
+            "nfl",
+            "nhl",
+            "golf"
+          ]
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "week",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "season",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport",
+          "enum": [
+            "mlb",
+            "nba",
+            "nfl",
+            "nhl",
+            "golf"
+          ],
+          "in": "query",
+          "name": "sport",
+          "required": true,
+          "type": "string",
+          "x-example": "nba"
+        },
+        {
+          "description": "Day as `YYYY-MM-DD`; MLB, NBA and NHL only; cannot be combined with `week` or `season`",
+          "in": "query",
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "description": "NFL week, 1 to 30; NFL only, usually with `season`",
+          "in": "query",
+          "maximum": 30,
+          "minimum": 1,
+          "name": "week",
+          "type": "integer"
+        },
+        {
+          "description": "NFL season year such as `2026`; NFL only",
+          "in": "query",
+          "maximum": 2100,
+          "minimum": 2000,
+          "name": "season",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-projection-tables": {
+      "id": "fanduel-research-projection-tables",
+      "method": "GET",
+      "path": "/fanduel/research/projection-tables",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "mlb",
+            "nba",
+            "nfl",
+            "nhl",
+            "golf"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Keep only this sport's tables",
+          "enum": [
+            "mlb",
+            "nba",
+            "nfl",
+            "nhl",
+            "golf"
+          ],
+          "in": "query",
+          "name": "sport",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-projections": {
+      "id": "fanduel-research-projections",
+      "method": "GET",
+      "path": "/fanduel/research/projections",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "mlb",
+            "nba",
+            "nfl",
+            "nhl",
+            "golf"
+          ]
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "DAILY",
+            "WEEKLY",
+            "YEARLY",
+            "REMAINING",
+            "PPR",
+            "SEASON_STATS"
+          ]
+        },
+        {
+          "name": "position",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "batters",
+            "pitchers",
+            "c",
+            "1b",
+            "2b",
+            "3b",
+            "ss",
+            "of",
+            "sp",
+            "rp",
+            "qb",
+            "rb",
+            "wr",
+            "te",
+            "flex",
+            "k",
+            "defense",
+            "all",
+            "pg",
+            "sg",
+            "guards",
+            "sf",
+            "pf",
+            "forwards",
+            "centers",
+            "skaters",
+            "goalies",
+            "wingers",
+            "d",
+            "idp"
+          ]
+        },
+        {
+          "name": "scope",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "TOTAL",
+            "PER_GAME"
+          ]
+        },
+        {
+          "name": "slate_id",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "week",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "season",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "page",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport",
+          "enum": [
+            "mlb",
+            "nba",
+            "nfl",
+            "nhl",
+            "golf"
+          ],
+          "in": "query",
+          "name": "sport",
+          "required": true,
+          "type": "string",
+          "x-example": "nba"
+        },
+        {
+          "description": "Projection type",
+          "enum": [
+            "DAILY",
+            "WEEKLY",
+            "YEARLY",
+            "REMAINING",
+            "PPR",
+            "SEASON_STATS"
+          ],
+          "in": "query",
+          "name": "type",
+          "required": true,
+          "type": "string",
+          "x-example": "SEASON_STATS"
+        },
+        {
+          "description": "Position tab of the table; default is the table's default tab. Allowed values: `batters`, `pitchers`, `c`, `1b`, `2b`, `3b`, `ss`, `of`, `sp`, `rp` (MLB); `qb`, `rb`, `wr`, `te`, `flex`, `k`, `defense`, `idp` (NFL); `all`, `pg`, `sg`, `guards`, `sf`, `pf`, `forwards`, `centers` (NBA); `skaters`, `goalies`, `forwards`, `wingers`, `centers`, `d` (NHL); `all` (golf). Which of them a table offers is listed by projection-tables",
+          "enum": [
+            "batters",
+            "pitchers",
+            "c",
+            "1b",
+            "2b",
+            "3b",
+            "ss",
+            "of",
+            "sp",
+            "rp",
+            "qb",
+            "rb",
+            "wr",
+            "te",
+            "flex",
+            "k",
+            "defense",
+            "all",
+            "pg",
+            "sg",
+            "guards",
+            "sf",
+            "pf",
+            "forwards",
+            "centers",
+            "skaters",
+            "goalies",
+            "wingers",
+            "d",
+            "idp"
+          ],
+          "in": "query",
+          "name": "position",
+          "type": "string"
+        },
+        {
+          "description": "`TOTAL` or `PER_GAME`; only NBA WEEKLY, YEARLY, REMAINING and SEASON_STATS take it, default `TOTAL`; other tables return `400`",
+          "enum": [
+            "TOTAL",
+            "PER_GAME"
+          ],
+          "in": "query",
+          "name": "scope",
+          "type": "string"
+        },
+        {
+          "description": "Slate id from the projection-slates route; required for DAILY (golf defaults to its only slate); other types return `400`",
+          "in": "query",
+          "name": "slate_id",
+          "type": "string"
+        },
+        {
+          "description": "Golf event id from the projection-slates route; golf only, defaults to the only current event",
+          "in": "query",
+          "name": "event_id",
+          "type": "string"
+        },
+        {
+          "description": "Day of the slate as `YYYY-MM-DD` when `slate_id` is not from today; MLB, NBA and NHL DAILY only",
+          "in": "query",
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "description": "NFL week of the slate when `slate_id` is not from this week; NFL DAILY only",
+          "in": "query",
+          "maximum": 30,
+          "minimum": 1,
+          "name": "week",
+          "type": "integer"
+        },
+        {
+          "description": "NFL season of the slate; NFL DAILY only",
+          "in": "query",
+          "maximum": 2100,
+          "minimum": 2000,
+          "name": "season",
+          "type": "integer"
+        },
+        {
+          "default": 1,
+          "description": "Page number, from 1; default 1, at most 10000",
+          "in": "query",
+          "maximum": 10000,
+          "minimum": 1,
+          "name": "page",
+          "type": "integer"
+        },
+        {
+          "default": 50,
+          "description": "Rows per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-sports": {
+      "id": "fanduel-research-sports",
+      "method": "GET",
+      "path": "/fanduel/research/sports",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "sport",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport or topic slug; adds the sport's teams",
+          "enum": [
+            "casino",
+            "nascar",
+            "ncaab",
+            "f1",
+            "ufc",
+            "boxing",
+            "ncaaf",
+            "womenssoccer",
+            "tv-and-podcast",
+            "nba",
+            "pga",
+            "tennis",
+            "nhl",
+            "mma",
+            "soccer",
+            "fanduel-sportsbook-promo-codes",
+            "sports-betting-101",
+            "horse-racing",
+            "wnba",
+            "predicts",
+            "mlb",
+            "canada",
+            "nfl"
+          ],
+          "in": "query",
+          "name": "sport",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-research-sub-categories": {
+      "id": "fanduel-research-sub-categories",
+      "method": "GET",
+      "path": "/fanduel/research/sub-categories",
+      "pathParams": [],
+      "queryParams": [],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-autocomplete": {
+      "id": "fanduel-sportsbook-autocomplete",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/autocomplete",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "q",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Prefix to complete, 2 to 100 characters, without `<` or `>`",
+          "in": "query",
+          "name": "q",
+          "required": true,
+          "type": "string",
+          "x-example": "lak"
+        },
+        {
+          "description": "Suggestions to return, 1 to 50; default 5",
+          "in": "query",
+          "maximum": 50,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-builder": {
+      "id": "fanduel-sportsbook-builder",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/builder",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "name": "experience",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "yourway",
+            "head-to-head",
+            "player-combos",
+            "bullseye",
+            "player-podium",
+            "or-bets"
+          ]
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from the `builder/events` route (`events[].event_id`)",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 36188995
+        },
+        {
+          "default": "yourway",
+          "description": "Builder experience: `yourway` (default), `head-to-head`, `player-combos`, `bullseye`, `player-podium`, `or-bets`",
+          "enum": [
+            "yourway",
+            "head-to-head",
+            "player-combos",
+            "bullseye",
+            "player-podium",
+            "or-bets"
+          ],
+          "in": "query",
+          "name": "experience",
+          "type": "string"
+        },
+        {
+          "description": "Market code, including `on` for Ontario; default `nj`",
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-builder-events": {
+      "id": "fanduel-sportsbook-builder-events",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/builder/events",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "experience",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "yourway",
+            "head-to-head",
+            "player-combos",
+            "bullseye",
+            "player-podium",
+            "or-bets"
+          ]
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "yourway",
+          "description": "Builder experience: `yourway` (default), `head-to-head`, `player-combos`, `bullseye`, `player-podium`, `or-bets`",
+          "enum": [
+            "yourway",
+            "head-to-head",
+            "player-combos",
+            "bullseye",
+            "player-podium",
+            "or-bets"
+          ],
+          "in": "query",
+          "name": "experience",
+          "type": "string"
+        },
+        {
+          "description": "Market code, including `on` for Ontario; default `nj`",
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-builder-quotes": {
+      "id": "fanduel-sportsbook-builder-quotes",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/builder/quotes",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "ramp_event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "name": "choice_id",
+          "in": "query",
+          "collectionFormat": "csv",
+          "type": "array",
+          "required": true
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "The builder response's `ramp_event_id` (not its `event_id`)",
+          "in": "query",
+          "name": "ramp_event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 16712244
+        },
+        {
+          "collectionFormat": "csv",
+          "description": "Choice ids from the builder response (`choices[].choice_id`); 1 to 25, repeated or comma-separated",
+          "in": "query",
+          "items": {
+            "type": "string"
+          },
+          "name": "choice_id",
+          "required": true,
+          "type": "array",
+          "x-example": "2763248ae1c5094d3aff3f30eb484612655c4cea3c3d386788b3b75628961795"
+        },
+        {
+          "description": "Market code, including `on` for Ontario; default `nj`",
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-competition": {
+      "id": "fanduel-sportsbook-competition",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/competition",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_type_id",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ]
+        },
+        {
+          "name": "competition_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        },
+        {
+          "name": "tab",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "market_type",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_markets",
+          "in": "query",
+          "type": "boolean"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport id: 6423 American Football; 1 Soccer; 7522 Basketball; 3 Golf; 7511 Baseball; 7524 Ice Hockey; 2 Tennis; 26420387 Mixed Martial Arts; 2593174 Table Tennis; 3503 Darts; 6 Boxing; 5 Rugby Union; 4 Cricket; 8 Motor Sport; 1477 Rugby League; 6422 Snooker; 468328 Handball; 28608997 Lacrosse; 998917 Volleyball, 4726642 Surfing, 10 Special Bets and 2378961 Politics; availability differs by market (Volleyball is also offered in NJ, PA, CO and AZ), and a sport a market does not offer returns 404",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ],
+          "in": "query",
+          "name": "event_type_id",
+          "required": true,
+          "type": "string",
+          "x-example": "6423"
+        },
+        {
+          "description": "Competition id from a league, sport or home response `competitions`",
+          "in": "query",
+          "name": "competition_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 12282733
+        },
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "description": "Show only one tab of this page: a tab slug from the response `tabs[].slug` (the lowercase-hyphenated tab title, such as `games` or `player-props`). An unknown slug returns 400 listing the page's tabs",
+          "in": "query",
+          "name": "tab",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these market types (repeat the parameter or comma-separate), for example `MONEY_LINE`. Valid values are listed in the response `market_types`; unmatched types return no markets",
+          "in": "query",
+          "name": "market_type",
+          "type": "string"
+        },
+        {
+          "default": false,
+          "description": "Return events without their markets (a cheap event listing); `market_types` is still returned",
+          "in": "query",
+          "name": "exclude_markets",
+          "type": "boolean"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-event": {
+      "id": "fanduel-sportsbook-event",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/event",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        },
+        {
+          "name": "tab",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "market_type",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from any Sportsbook events listing",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 35605985
+        },
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "description": "Tab slug from the response `tabs[].slug` (for example `popular`, `passing-props`, `1st-half`, `td-scorer-props`); default `popular`. Tabs differ by sport",
+          "in": "query",
+          "name": "tab",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these market types (repeat the parameter or comma-separate), for example `MONEY_LINE`. Valid values are listed in the response `market_types`; unmatched types return no markets",
+          "in": "query",
+          "name": "market_type",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-event-box-score": {
+      "id": "fanduel-sportsbook-event-box-score",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/event/box-score",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from any Sportsbook events listing",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 35605985
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-event-play-by-play": {
+      "id": "fanduel-sportsbook-event-play-by-play",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/event/play-by-play",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "name": "current",
+          "in": "query",
+          "type": "boolean"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from any Sportsbook events listing",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 35605985
+        },
+        {
+          "default": false,
+          "description": "Return only the play in progress (a much smaller payload for polling a live game); default false",
+          "in": "query",
+          "name": "current",
+          "type": "boolean"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-event-players": {
+      "id": "fanduel-sportsbook-event-players",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/event/players",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from any Sportsbook events listing",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 35605985
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-event-score": {
+      "id": "fanduel-sportsbook-event-score",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/event/score",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from any Sportsbook events listing",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 35605985
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-event-stats": {
+      "id": "fanduel-sportsbook-event-stats",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/event/stats",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from any Sportsbook events listing",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "integer",
+          "x-example": 35605985
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-events-status": {
+      "id": "fanduel-sportsbook-events-status",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/events/status",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "collectionFormat": "csv",
+          "type": "array",
+          "required": true
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "collectionFormat": "csv",
+          "description": "Event ids, 1 to 30, repeated or comma-separated",
+          "in": "query",
+          "items": {
+            "type": "string"
+          },
+          "name": "event_id",
+          "required": true,
+          "type": "array",
+          "x-example": "36188995"
+        },
+        {
+          "description": "Market code, including `on` for Ontario; default `nj`",
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-home": {
+      "id": "fanduel-sportsbook-home",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/home",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        },
+        {
+          "name": "tab",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "competition_id",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "market_type",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_markets",
+          "in": "query",
+          "type": "boolean"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "description": "Show only one tab of this page: a tab slug from the response `tabs[].slug` (the lowercase-hyphenated tab title, such as `games` or `player-props`). An unknown slug returns 400 listing the page's tabs",
+          "in": "query",
+          "name": "tab",
+          "type": "string"
+        },
+        {
+          "description": "Keep only events of this competition id (from the response `competitions`)",
+          "in": "query",
+          "name": "competition_id",
+          "type": "integer"
+        },
+        {
+          "description": "Keep only these market types (repeat the parameter or comma-separate), for example `MONEY_LINE`. Valid values are listed in the response `market_types`; unmatched types return no markets",
+          "in": "query",
+          "name": "market_type",
+          "type": "string"
+        },
+        {
+          "default": false,
+          "description": "Return events without their markets (a cheap event listing); `market_types` is still returned",
+          "in": "query",
+          "name": "exclude_markets",
+          "type": "boolean"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-league": {
+      "id": "fanduel-sportsbook-league",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/league",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "custom_page_id",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        },
+        {
+          "name": "tab",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "competition_id",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "market_type",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_markets",
+          "in": "query",
+          "type": "boolean"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League page id such as `nfl`, `nba`, `mlb`, `ncaaf`, `ncaab`, `nhl`, `wnba`, `pga`, `ncaaw`. Tournament and event pages appear and disappear during the year, and a retired page returns 404; list the current ones with the sports route",
+          "in": "query",
+          "name": "custom_page_id",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "description": "Show only one tab of this page: a tab slug from the response `tabs[].slug` (the lowercase-hyphenated tab title, such as `games` or `player-props`). An unknown slug returns 400 listing the page's tabs",
+          "in": "query",
+          "name": "tab",
+          "type": "string"
+        },
+        {
+          "description": "Keep only events of this competition id (from the response `competitions`)",
+          "in": "query",
+          "name": "competition_id",
+          "type": "integer"
+        },
+        {
+          "description": "Keep only these market types (repeat the parameter or comma-separate), for example `MONEY_LINE`. Valid values are listed in the response `market_types`; unmatched types return no markets",
+          "in": "query",
+          "name": "market_type",
+          "type": "string"
+        },
+        {
+          "default": false,
+          "description": "Return events without their markets (a cheap event listing); `market_types` is still returned",
+          "in": "query",
+          "name": "exclude_markets",
+          "type": "boolean"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-live": {
+      "id": "fanduel-sportsbook-live",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/live",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_type_id",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ]
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        },
+        {
+          "name": "market_type",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_markets",
+          "in": "query",
+          "type": "boolean"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport id: 6423 American Football; 1 Soccer; 7522 Basketball; 3 Golf; 7511 Baseball; 7524 Ice Hockey; 2 Tennis; 26420387 Mixed Martial Arts; 2593174 Table Tennis; 3503 Darts; 6 Boxing; 5 Rugby Union; 4 Cricket; 8 Motor Sport; 1477 Rugby League; 6422 Snooker; 468328 Handball; 28608997 Lacrosse; 998917 Volleyball, 4726642 Surfing, 10 Special Bets and 2378961 Politics; availability differs by market (Volleyball is also offered in NJ, PA, CO and AZ), and a sport a market does not offer returns 404",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ],
+          "in": "query",
+          "name": "event_type_id",
+          "type": "string"
+        },
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "description": "Keep only these market types (repeat the parameter or comma-separate), for example `MONEY_LINE`. Valid values are listed in the response `market_types`; unmatched types return no markets",
+          "in": "query",
+          "name": "market_type",
+          "type": "string"
+        },
+        {
+          "default": false,
+          "description": "Return events without their markets (a cheap event listing); `market_types` is still returned",
+          "in": "query",
+          "name": "exclude_markets",
+          "type": "boolean"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-live-count": {
+      "id": "fanduel-sportsbook-live-count",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/live-count",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Market code, including `on` for Ontario; default `nj`",
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-live-data": {
+      "id": "fanduel-sportsbook-live-data",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/live-data",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Event id from any Sportsbook events listing; repeat the parameter or comma-separate, 1 to 20 ids",
+          "in": "query",
+          "name": "event_id",
+          "required": true,
+          "type": "string",
+          "x-example": "35605985"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-live-scores": {
+      "id": "fanduel-sportsbook-live-scores",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/live-scores",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_id",
+          "in": "query",
+          "collectionFormat": "csv",
+          "type": "array",
+          "required": true
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "collectionFormat": "csv",
+          "description": "Event ids, 1 to 100, repeated or comma-separated",
+          "in": "query",
+          "items": {
+            "type": "string"
+          },
+          "name": "event_id",
+          "required": true,
+          "type": "array",
+          "x-example": "36218656"
+        },
+        {
+          "description": "Market code, including `on` for Ontario; default `nj`",
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-market-prices": {
+      "id": "fanduel-sportsbook-market-prices",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/market-prices",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "market_id",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Market id such as `734.191539418`; repeat the parameter or comma-separate, 1 to 70 ids",
+          "in": "query",
+          "name": "market_id",
+          "required": true,
+          "type": "string",
+          "x-example": "734.168824006"
+        },
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-parlays": {
+      "id": "fanduel-sportsbook-parlays",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/parlays",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "view",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "popular",
+            "all",
+            "next-to-start",
+            "event"
+          ]
+        },
+        {
+          "name": "event_id",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "PARLAY",
+            "SGP",
+            "SGP_PLUS"
+          ]
+        },
+        {
+          "name": "event_type_id",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ]
+        },
+        {
+          "name": "competition_id",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "min_odds",
+          "in": "query",
+          "type": "number"
+        },
+        {
+          "name": "max_odds",
+          "in": "query",
+          "type": "number"
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "popular",
+          "description": "Which list: `popular` (default), `all`, `next-to-start` or `event`",
+          "enum": [
+            "popular",
+            "all",
+            "next-to-start",
+            "event"
+          ],
+          "in": "query",
+          "name": "view",
+          "type": "string"
+        },
+        {
+          "description": "Event id, required for `view=event` and rejected otherwise",
+          "in": "query",
+          "name": "event_id",
+          "type": "integer"
+        },
+        {
+          "description": "Card type filter for `view=all` (repeat or comma-separate): `PARLAY` (multi-event parlay), `SGP` (same-game parlay), `SGP_PLUS` (SGP combined across games)",
+          "enum": [
+            "PARLAY",
+            "SGP",
+            "SGP_PLUS"
+          ],
+          "in": "query",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "description": "Sport filter for `view=all` and `view=next-to-start`: 6423 American Football; 1 Soccer; 7522 Basketball; 3 Golf; 7511 Baseball; 7524 Ice Hockey; 2 Tennis; 26420387 Mixed Martial Arts; 2593174 Table Tennis; 3503 Darts; 6 Boxing; 5 Rugby Union; 4 Cricket; 8 Motor Sport; 1477 Rugby League; 6422 Snooker; 468328 Handball; 28608997 Lacrosse; 998917 Volleyball, 4726642 Surfing, 10 Special Bets and 2378961 Politics; availability differs by market (Volleyball is also offered in NJ, PA, CO and AZ), and a sport a market does not offer returns 404",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ],
+          "in": "query",
+          "name": "event_type_id",
+          "type": "string"
+        },
+        {
+          "description": "Competition filter for `view=all` and `view=next-to-start` (repeat or comma-separate, up to 20 ids); the groups in the response `filters` list valid ids",
+          "in": "query",
+          "name": "competition_id",
+          "type": "string"
+        },
+        {
+          "description": "Minimum combined decimal odds (1.01 to 10000) for `view=all` and `view=next-to-start`",
+          "in": "query",
+          "name": "min_odds",
+          "type": "number"
+        },
+        {
+          "description": "Maximum combined decimal odds (1.01 to 10000) for `view=all` and `view=next-to-start`",
+          "in": "query",
+          "name": "max_odds",
+          "type": "number"
+        },
+        {
+          "default": "nj",
+          "description": "Market to query; default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-player": {
+      "id": "fanduel-sportsbook-player",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/player",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba"
+          ]
+        },
+        {
+          "name": "player",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`",
+          "enum": [
+            "nfl",
+            "nba"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Player slug ending in its id, such as `josh-allen-53775`; take it from the `players` route (`players[].slug`) or `team/roster` (`players[].slug`)",
+          "in": "query",
+          "name": "player",
+          "required": true,
+          "type": "string",
+          "x-example": "josh-allen-53775"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-player-news": {
+      "id": "fanduel-sportsbook-player-news",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/player/news",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba"
+          ]
+        },
+        {
+          "name": "player",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`",
+          "enum": [
+            "nfl",
+            "nba"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Player slug ending in its id, such as `josh-allen-53775`; take it from the `players` route (`players[].slug`) or `team/roster` (`players[].slug`)",
+          "in": "query",
+          "name": "player",
+          "required": true,
+          "type": "string",
+          "x-example": "josh-allen-53775"
+        },
+        {
+          "description": "Continue from the previous response's `next_cursor`; omit for the first page",
+          "in": "query",
+          "name": "cursor",
+          "type": "string"
+        },
+        {
+          "description": "Articles per page after the first, 1 to 50; default 25. Only valid together with `cursor`",
+          "in": "query",
+          "maximum": 50,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-player-props": {
+      "id": "fanduel-sportsbook-player-props",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/player/props",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba"
+          ]
+        },
+        {
+          "name": "player",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`",
+          "enum": [
+            "nfl",
+            "nba"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Player slug ending in its id, such as `josh-allen-53775`; take it from the `players` route (`players[].slug`) or `team/roster` (`players[].slug`)",
+          "in": "query",
+          "name": "player",
+          "required": true,
+          "type": "string",
+          "x-example": "josh-allen-53775"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-player-stats": {
+      "id": "fanduel-sportsbook-player-stats",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/player/stats",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba"
+          ]
+        },
+        {
+          "name": "player",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`",
+          "enum": [
+            "nfl",
+            "nba"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Player slug ending in its id, such as `josh-allen-53775`; take it from the `players` route (`players[].slug`) or `team/roster` (`players[].slug`)",
+          "in": "query",
+          "name": "player",
+          "required": true,
+          "type": "string",
+          "x-example": "josh-allen-53775"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-players": {
+      "id": "fanduel-sportsbook-players",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/players",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba"
+          ]
+        },
+        {
+          "name": "q",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "offset",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`",
+          "enum": [
+            "nfl",
+            "nba"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Words to find in the player name, such as `josh allen`; omit to list everyone",
+          "in": "query",
+          "name": "q",
+          "type": "string"
+        },
+        {
+          "description": "Players per page, 1 to 200; default 50",
+          "in": "query",
+          "maximum": 200,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        },
+        {
+          "description": "Players to skip; default 0",
+          "in": "query",
+          "minimum": 0,
+          "name": "offset",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-promotions": {
+      "id": "fanduel-sportsbook-promotions",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/promotions",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "context",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "home",
+            "league",
+            "sport"
+          ]
+        },
+        {
+          "name": "custom_page_id",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "event_type_id",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ]
+        },
+        {
+          "name": "tag",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "home",
+          "description": "Which page's promotions: `home` (default), `league` or `sport`",
+          "enum": [
+            "home",
+            "league",
+            "sport"
+          ],
+          "in": "query",
+          "name": "context",
+          "type": "string"
+        },
+        {
+          "description": "League page id, required for `context=league` (for example `nfl`)",
+          "in": "query",
+          "name": "custom_page_id",
+          "type": "string"
+        },
+        {
+          "description": "Sport id, required for `context=sport`: 6423 American Football; 1 Soccer; 7522 Basketball; 3 Golf; 7511 Baseball; 7524 Ice Hockey; 2 Tennis; 26420387 Mixed Martial Arts; 2593174 Table Tennis; 3503 Darts; 6 Boxing; 5 Rugby Union; 4 Cricket; 8 Motor Sport; 1477 Rugby League; 6422 Snooker; 468328 Handball; 28608997 Lacrosse; 998917 Volleyball, 4726642 Surfing, 10 Special Bets and 2378961 Politics; availability differs by market (Volleyball is also offered in NJ, PA, CO and AZ), and a sport a market does not offer returns 404",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ],
+          "in": "query",
+          "name": "event_type_id",
+          "type": "string"
+        },
+        {
+          "description": "Keep only promotions with one of these tags (repeat the parameter or comma-separate), for example `nfl` or `basketball`; valid tags are listed in the response `tags`",
+          "in": "query",
+          "name": "tag",
+          "type": "string"
+        },
+        {
+          "default": "nj",
+          "description": "Market to query (offers differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-schedule": {
+      "id": "fanduel-sportsbook-schedule",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/schedule",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football"
+          ]
+        },
+        {
+          "name": "week",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "date",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "end_date",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "NFL only: week id from the response `weeks` list, such as `7`; default is the current week. Cannot be combined with `date`",
+          "in": "query",
+          "name": "week",
+          "type": "string"
+        },
+        {
+          "description": "First day as `YYYY-MM-DD`. Required form for the NBA and MLB (default today, UTC); optional for the NFL and college football",
+          "in": "query",
+          "name": "date",
+          "type": "string"
+        },
+        {
+          "description": "NFL and college football only: last day as `YYYY-MM-DD`, at most 31 days after `date`; default is `date` alone",
+          "in": "query",
+          "name": "end_date",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-search": {
+      "id": "fanduel-sportsbook-search",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/search",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "q",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "type",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "all",
+            "event",
+            "competition"
+          ]
+        },
+        {
+          "name": "event_type_id",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ]
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Search text, 2 to 100 characters",
+          "in": "query",
+          "name": "q",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "default": "all",
+          "description": "What to search: `all` (events and competitions), `event` or `competition`; default all",
+          "enum": [
+            "all",
+            "event",
+            "competition"
+          ],
+          "in": "query",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "description": "Limit results to one sport: 6423 American Football; 1 Soccer; 7522 Basketball; 3 Golf; 7511 Baseball; 7524 Ice Hockey; 2 Tennis; 26420387 Mixed Martial Arts; 2593174 Table Tennis; 3503 Darts; 6 Boxing; 5 Rugby Union; 4 Cricket; 8 Motor Sport; 1477 Rugby League; 6422 Snooker; 468328 Handball; 28608997 Lacrosse; 998917 Volleyball, 4726642 Surfing, 10 Special Bets and 2378961 Politics; availability differs by market (Volleyball is also offered in NJ, PA, CO and AZ), and a sport a market does not offer returns 404",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ],
+          "in": "query",
+          "name": "event_type_id",
+          "type": "string"
+        },
+        {
+          "default": 20,
+          "description": "Maximum events returned, 1 to 50; default 20",
+          "in": "query",
+          "maximum": 50,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        },
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-search-tabs": {
+      "id": "fanduel-sportsbook-search-tabs",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/search/tabs",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "q",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "tab",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "pill",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "start_index",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "timezone",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Search text, 3 to 100 characters, without `<` or `>`",
+          "in": "query",
+          "name": "q",
+          "required": true,
+          "type": "string",
+          "x-example": "nba"
+        },
+        {
+          "description": "Sport tab title from a previous response's `tabs[].title`, such as `Basketball`; default is the tab with the most relevant matches",
+          "in": "query",
+          "name": "tab",
+          "type": "string"
+        },
+        {
+          "description": "Competition title from the response `pills[].title`, such as `NBA`; needs `tab`",
+          "in": "query",
+          "name": "pill",
+          "type": "string"
+        },
+        {
+          "default": 0,
+          "description": "Index of the first result, 0 to 9999, in steps of 20; default 0",
+          "in": "query",
+          "maximum": 9999,
+          "minimum": 0,
+          "name": "start_index",
+          "type": "integer"
+        },
+        {
+          "description": "IANA time zone for result times, such as `America/New_York`; default `UTC`",
+          "in": "query",
+          "name": "timezone",
+          "type": "string"
+        },
+        {
+          "description": "Market code, including `on` for Ontario; default `nj`",
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-sport": {
+      "id": "fanduel-sportsbook-sport",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/sport",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "event_type_id",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ]
+        },
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        },
+        {
+          "name": "tab",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "competition_id",
+          "in": "query",
+          "type": "integer"
+        },
+        {
+          "name": "market_type",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "exclude_markets",
+          "in": "query",
+          "type": "boolean"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Sport id: 6423 American Football; 1 Soccer; 7522 Basketball; 3 Golf; 7511 Baseball; 7524 Ice Hockey; 2 Tennis; 26420387 Mixed Martial Arts; 2593174 Table Tennis; 3503 Darts; 6 Boxing; 5 Rugby Union; 4 Cricket; 8 Motor Sport; 1477 Rugby League; 6422 Snooker; 468328 Handball; 28608997 Lacrosse; 998917 Volleyball, 4726642 Surfing, 10 Special Bets and 2378961 Politics; availability differs by market (Volleyball is also offered in NJ, PA, CO and AZ), and a sport a market does not offer returns 404",
+          "enum": [
+            "6423",
+            "1",
+            "7522",
+            "3",
+            "7511",
+            "7524",
+            "2",
+            "26420387",
+            "2593174",
+            "3503",
+            "6",
+            "5",
+            "4",
+            "8",
+            "1477",
+            "6422",
+            "468328",
+            "28608997",
+            "998917",
+            "4726642",
+            "10",
+            "2378961"
+          ],
+          "in": "query",
+          "name": "event_type_id",
+          "required": true,
+          "type": "string",
+          "x-example": "7522"
+        },
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        },
+        {
+          "description": "Show only one tab of this page: a tab slug from the response `tabs[].slug` (the lowercase-hyphenated tab title, such as `games` or `player-props`). An unknown slug returns 400 listing the page's tabs",
+          "in": "query",
+          "name": "tab",
+          "type": "string"
+        },
+        {
+          "description": "Keep only events of this competition id (from the response `competitions`)",
+          "in": "query",
+          "name": "competition_id",
+          "type": "integer"
+        },
+        {
+          "description": "Keep only these market types (repeat the parameter or comma-separate), for example `MONEY_LINE`. Valid values are listed in the response `market_types`; unmatched types return no markets",
+          "in": "query",
+          "name": "market_type",
+          "type": "string"
+        },
+        {
+          "default": false,
+          "description": "Return events without their markets (a cheap event listing); `market_types` is still returned",
+          "in": "query",
+          "name": "exclude_markets",
+          "type": "boolean"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-sports": {
+      "id": "fanduel-sportsbook-sports",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/sports",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "state",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "nj",
+          "description": "U.S. market to query (prices and offered markets differ by state); default nj",
+          "enum": [
+            "ar",
+            "az",
+            "co",
+            "ct",
+            "dc",
+            "ia",
+            "il",
+            "in",
+            "ks",
+            "ky",
+            "la",
+            "ma",
+            "md",
+            "mi",
+            "mo",
+            "mr",
+            "nc",
+            "nj",
+            "ny",
+            "oh",
+            "on",
+            "pa",
+            "pr",
+            "tn",
+            "va",
+            "vt",
+            "wv",
+            "wy"
+          ],
+          "in": "query",
+          "name": "state",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-standings": {
+      "id": "fanduel-sportsbook-standings",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/standings",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-stats": {
+      "id": "fanduel-sportsbook-stats",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/stats",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "competition_id",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "Keep only this competition id (for example 12282733 for the NFL)",
+          "in": "query",
+          "name": "competition_id",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-team-depth-chart": {
+      "id": "fanduel-sportsbook-team-depth-chart",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/team/depth-chart",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ]
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`, `college-basketball`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Team slug from the `teams` route (`groups[].teams[].slug`), such as `arizona-cardinals`",
+          "in": "query",
+          "name": "team",
+          "required": true,
+          "type": "string",
+          "x-example": "arizona-cardinals"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-team-news": {
+      "id": "fanduel-sportsbook-team-news",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/team/news",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ]
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "cursor",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "type": "integer"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`, `college-basketball`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Team slug from the `teams` route (`groups[].teams[].slug`), such as `arizona-cardinals`",
+          "in": "query",
+          "name": "team",
+          "required": true,
+          "type": "string",
+          "x-example": "arizona-cardinals"
+        },
+        {
+          "description": "Continue from the previous response's `next_cursor`; omit for the first page",
+          "in": "query",
+          "name": "cursor",
+          "type": "string"
+        },
+        {
+          "description": "Articles per page after the first, 1 to 50; default 25. Only valid together with `cursor`",
+          "in": "query",
+          "maximum": 50,
+          "minimum": 1,
+          "name": "limit",
+          "type": "integer"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-team-odds": {
+      "id": "fanduel-sportsbook-team-odds",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/team/odds",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ]
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`, `college-basketball`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Team slug from the `teams` route (`groups[].teams[].slug`), such as `arizona-cardinals`",
+          "in": "query",
+          "name": "team",
+          "required": true,
+          "type": "string",
+          "x-example": "arizona-cardinals"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-team-roster": {
+      "id": "fanduel-sportsbook-team-roster",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/team/roster",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ]
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "injured_only",
+          "in": "query",
+          "type": "boolean"
+        },
+        {
+          "name": "status",
+          "in": "query",
+          "type": "string"
+        },
+        {
+          "name": "position",
+          "in": "query",
+          "type": "string"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`, `college-basketball`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Team slug from the `teams` route (`groups[].teams[].slug`), such as `arizona-cardinals`",
+          "in": "query",
+          "name": "team",
+          "required": true,
+          "type": "string",
+          "x-example": "arizona-cardinals"
+        },
+        {
+          "default": false,
+          "description": "Return only players with an injury designation; default false",
+          "in": "query",
+          "name": "injured_only",
+          "type": "boolean"
+        },
+        {
+          "description": "Keep only this roster status code, such as `IR`; valid codes are listed in the response `statuses`",
+          "in": "query",
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "description": "Keep only this position code, such as `QB`; valid codes are listed in the response `positions`",
+          "in": "query",
+          "name": "position",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-team-schedule": {
+      "id": "fanduel-sportsbook-team-schedule",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/team/schedule",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ]
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`, `college-basketball`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nba"
+        },
+        {
+          "description": "Team slug from the `teams` route (`groups[].teams[].slug`), such as `arizona-cardinals`",
+          "in": "query",
+          "name": "team",
+          "required": true,
+          "type": "string",
+          "x-example": "atlanta-hawks"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-team-stats": {
+      "id": "fanduel-sportsbook-team-stats",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/team/stats",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "required": true,
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ]
+        },
+        {
+          "name": "team",
+          "in": "query",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "description": "League: `nfl`, `nba`, `mlb`, `college-football`, `college-basketball`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ],
+          "in": "query",
+          "name": "league",
+          "required": true,
+          "type": "string",
+          "x-example": "nfl"
+        },
+        {
+          "description": "Team slug from the `teams` route (`groups[].teams[].slug`), such as `arizona-cardinals`",
+          "in": "query",
+          "name": "team",
+          "required": true,
+          "type": "string",
+          "x-example": "arizona-cardinals"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-teams": {
+      "id": "fanduel-sportsbook-teams",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/teams",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "league",
+          "in": "query",
+          "type": "string",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ]
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": "nfl",
+          "description": "League: `nfl` (default), `nba`, `mlb`, `college-football`, `college-basketball`",
+          "enum": [
+            "nfl",
+            "nba",
+            "mlb",
+            "college-football",
+            "college-basketball"
+          ],
+          "in": "query",
+          "name": "league",
+          "type": "string"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    },
+    "fanduel-sportsbook-trending": {
+      "id": "fanduel-sportsbook-trending",
+      "method": "GET",
+      "path": "/fanduel/sportsbook/trending",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "name": "enriched",
+          "in": "query",
+          "type": "boolean"
+        }
+      ],
+      "bodyParam": null,
+      "bodyRequired": false,
+      "params": [
+        {
+          "default": false,
+          "description": "Resolve each term to its event, competition and entity; default false",
+          "in": "query",
+          "name": "enriched",
+          "type": "boolean"
+        }
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "security": [
+        "ApiKeyAuth"
+      ]
+    }
+  }
+}

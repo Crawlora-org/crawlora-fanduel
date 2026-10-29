@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crawlora-fanduel"
+version = "0.1.0"
+description = "Crawlora FanDuel API client with 72 endpoints for public racing, casino catalogue, and research data"
+readme = "README.md"
+keywords = ["crawlora", "api-client", "sdk", "web-scraping", "scraping-api", "fanduel", "fanduel-api", "fanduel-scraper", "fanduel-data", "fanduel-public-racing", "fanduel-casino-catalogue", "fanduel-research-data"]
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Crawlora" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Typing :: Typed",
+]
+dependencies = ["typing-extensions>=4.7; python_version < '3.11'"]
+
+[project.optional-dependencies]
+async = ["httpx>=0.27"]
+test = ["mypy>=1.11", "pytest>=8"]
+
+[project.urls]
+Homepage = "https://crawlora.net/?utm_source=pypi&utm_medium=referral&utm_campaign=platform-clients&utm_content=fanduel-python-homepage"
+Documentation = "https://crawlora.net/docs?utm_source=pypi&utm_medium=referral&utm_campaign=platform-clients&utm_content=fanduel-python-api-docs"
+Repository = "https://github.com/Crawlora-org/crawlora-fanduel"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["crawlora_fanduel"]
+
+[tool.setuptools.package-data]
+"crawlora_fanduel" = ["py.typed", "*.pyi"]

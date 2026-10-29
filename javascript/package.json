@@ -1,0 +1,34 @@
+{
+  "name": "@crawlora-org/fanduel",
+  "version": "0.1.0",
+  "description": "Crawlora FanDuel API client with 72 endpoints for public racing, casino catalogue, and research data",
+  "homepage": "https://crawlora.net/?utm_source=npm&utm_medium=referral&utm_campaign=platform-clients&utm_content=fanduel-javascript-homepage",
+  "bugs": { "url": "https://github.com/Crawlora-org/crawlora-fanduel/issues" },
+  "keywords": ["crawlora", "api-client", "sdk", "web-scraping", "scraping-api", "fanduel", "fanduel-api", "fanduel-scraper", "fanduel-data", "fanduel-public-racing", "fanduel-casino-catalogue", "fanduel-research-data"],
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crawlora-org/crawlora-fanduel",
+    "directory": "javascript"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "typecheck": "tsc --noEmit",
+    "pack:check": "npm pack --dry-run --ignore-scripts",
+    "generate": "python3 ../scripts/generate.py"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "crawlora/fanduel",
+  "description": "Crawlora FanDuel API client with 72 endpoints for public racing, casino catalogue, and research data",
+  "keywords": [
+    "crawlora",
+    "api-client",
+    "sdk",
+    "web-scraping",
+    "scraping-api",
+    "fanduel",
+    "fanduel-api",
+    "fanduel-scraper",
+    "fanduel-data",
+    "fanduel-public-racing",
+    "fanduel-casino-catalogue",
+    "fanduel-research-data"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crawlora\\Fanduel\\": "src/Crawlora/Fanduel/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Crawlora\\Fanduel\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "php tests/client_test.php"
+  },
+  "homepage": "https://crawlora.net/?utm_source=packagist&utm_medium=referral&utm_campaign=platform-clients&utm_content=fanduel-php-homepage",
+  "support": {
+    "source": "https://github.com/Crawlora-org/crawlora-fanduel",
+    "docs": "https://crawlora.net/docs?utm_source=packagist&utm_medium=referral&utm_campaign=platform-clients&utm_content=fanduel-php-api-docs"
+  }
+}
